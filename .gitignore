@@ -1,0 +1,44 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated vector database
+vector_store/
+
+# Generated cache and runtime data
+outputs/topic_analysis_cache.json
+outputs/knowledge_gaps.json
+
+# Uploaded documents and local datasets
+data/*
+!data/.gitkeep
+
+# Local model files
+models/*
+!models/.gitkeep
+
+# Logs
+*.log
